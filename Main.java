@@ -1,0 +1,13 @@
+import javax.swing.*;
+public class Main 
+{
+	public static void main(String[] args)
+	{
+		// create a new JFrame to display when a program starts
+		Gui g = new Gui();
+		g.setSize(250, 400);
+		g.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		g.setVisible(true);
+		g.setResizable(false);
+	}
+}
